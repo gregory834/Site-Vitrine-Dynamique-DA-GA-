@@ -1,3 +1,11 @@
 #jumbotron{
     width: 600px;    
 }
+#logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.card-img-top{
+    height: 250px;
+}
