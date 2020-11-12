@@ -31,38 +31,119 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Accueil</a>
+                        <a class="nav-link text-white font-weight-bold" href="#">Accueil</a>
                     </li>
                     <li class="nav-item text-white">
-                        <a class="nav-link text-white" href="#">Produits</a>
+                        <a class="nav-link text-white font-weight-bold" href="#">Produits</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link text-white" href="#">
+                        <a class="nav-link text-white font-weight-bold" href="#">
                             Presentation
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white font-weight-bold" href="#">Contact</a>
                     </li>
                 </ul>
                 <div class="form-inline my-2 my-lg-0">
-                    <div class="text-white">Téléphone : 01-02-03-04-05</div>
+                    <div class="text-white font-weight-bold">Téléphone : 01-02-03-04-05</div>
                 </div>
             </div>
         </nav>
         <!----------------------------jumbotron-------------------------------------->
-        <div id="jumbotron" class="jumbotron jumbotron-fluid ">
-            <div class="container text-center text-white">
-                <h1 class="display-4 tracking-in-contract">Nouveau produit</h1>
-                <p id="textjumbotron" class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
-                    laboriosam sit
-                    consequatur, suscipit voluptatibus facere necessitatibus ullam repudiandae tempora nam ut vitae
-                    praesentium sint autem illum expedita, consectetur quidem laborum?
-                </p>
+        <div class="row d-flex justify-content-center">
+            <div id="jumbotron" class="jumbotron jumbotron-fluid d-flex align-items-center ">
+                <div class="container text-center text-white">
+                    <h1 class="display-4 tracking-in-contract">Nouveau produit</h1>
+                    <p id="textjumbotron" class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+                        laboriosam sit
+                        praesentium sint autem illum expedita, consectetur quidem laborum?
+                    </p>
+                </div>
             </div>
         </div>
     </header>
+    <!----------------------------------Produits------------------------------>
+    <section class="container-fluid">
+        <!---------------------CARD ------------------------------------>
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" style=" height: 200px;">
 
+            <div id="cards" class="row row-cols-lg-4  row-cols-1 justify-content-center"
+                style="position: relative; top: -8rem;">
+                <div class="col card">
+                    <img src="media/img2.jpg" class="card-img-top" alt="Accroche HTML">
+                    <div class="card-body">
+                        <h2 class="card-title">Titre</h2>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                            cupiditate
+                            molestias officia! Similique neque veniam vitae expedita odit incidunt, laudantium labore
+                            iusto,
+                            fuga quaerat dolorem delectus fugit facilis, nulla voluptatum.</p>
+                    </div>
+                </div>
+
+                <!-------------------------------------------->
+                <div class="col card">
+                    <img src="media/img3.jpg" class="card-img-top" alt="Accroche HTML">
+                    <div class="card-body">
+                        <h2 class="card-title">Titre</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non dolore
+                            nulla
+                            id, itaque expedita voluptatem quos temporibus, corrupti nemo suscipit maxime deleniti
+                            voluptates nesciunt tempore ex aut inventore hic.</p>
+                    </div>
+                </div>
+                <!---------------------------------------------->
+                <div class="col card">
+                    <img src="media/img4.jpg" class="card-img-top" alt="Accroche HTML">
+                    <div class="card-body">
+                        <h2 class="card-title">Titre</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore
+                            exercitationem quia numquam facere perspiciatis nulla blanditiis illum sunt, quis modi
+                            molestiae. Quod voluptate soluta omnis repellat qui nam doloremque?</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!------------------- Section titre et texte ------------------>
+        <div class="row ">
+            <div id="sectiontext" data-aos="fade-up" class="container-fluid"
+                style="height: 400px; top: 14rem; position: relative;">
+                <section class="row-cols-2  d-flex justify-content-center " style="height: 230px;">
+                    <div class="col align-self-center">
+                        <h2 class=" text-center">Titre</h2>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sit, ab non enim
+                            provident
+                            necessitatibus quibusdam harum libero! Molestias officia nemo ut eum praesentium vel
+                            corporis
+                            dolorem porro ab sequi.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--------------------------------------------SCRIPT---------------------------------------------------------------------->
+        <!-- jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+            </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
