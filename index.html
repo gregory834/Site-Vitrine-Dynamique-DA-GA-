@@ -23,12 +23,13 @@
         <!-----------------------------Navbar------------------------------->
         <nav class="navbar navbar-expand-md navbar-dark pl-5 pr-5">
             <a class="navbar-brand" href="#"><img id="logo" src="media/logo.jpg" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bgblack" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link text-white font-weight-bold" href="#">Accueil</a>
@@ -64,9 +65,9 @@
         </div>
     </header>
     <!----------------------------------Produits------------------------------>
-    <section class="container-fluid">
+    <section id="produit" class="container-fluid">
         <!---------------------CARD ------------------------------------>
-        <div class="d-flex justify-content-center" data-aos="fade-down" data-aos-easing="linear"
+        <div id="cards-2" class="d-flex justify-content-center" data-aos="fade-down" data-aos-easing="linear"
             data-aos-duration="1500" style=" height: 200px;">
 
             <div id="cards" class="row row-cols-lg-4 row-cols-1 justify-content-center"
@@ -74,7 +75,7 @@
                 <div class="col card col-md ">
                     <img src="media/img2.jpg" class="card-img-top" alt="Accroche HTML">
                     <div class="card-body">
-                        <h2 class="card-title">Card1</h2>
+                        <h2 class="card-title font-titre">Card1</h2>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
                             cupiditate
                             dit incidunt, laudantium labore
@@ -86,7 +87,7 @@
                 <div class="col card col-md">
                     <img src="media/img3.jpg" class="card-img-top" alt="Accroche HTML">
                     <div class="card-body">
-                        <h2 class="card-title">Card2</h2>
+                        <h2 class="card-title font-titre">Card2</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non dolore
                             nulla
                             id, itasuscipit maxime deleniti
@@ -97,7 +98,7 @@
                 <div class="col card col-md">
                     <img src="media/img4.jpg" class="card-img-top" alt="Accroche HTML">
                     <div class="card-body">
-                        <h2 class="card-title">Card3</h2>
+                        <h2 class="card-title font-titre">Card3</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore
                             exer quis modi
                             molestiae. Quod voluptate soluta nam doloremque?</p>
@@ -109,11 +110,11 @@
 
 
         <!------------------- Section titre et texte ------------------>
-        <div class="row ">
+        <div id="titre-texte" class="row ">
             <div id="sectiontext" class="container-fluid col-md" style="height: 400px; top: 8rem; position: relative;">
                 <section class="row-cols  d-flex justify-content-center " style="height: 230px;">
                     <div id="titreettexte" class="col  col-md align-self-center">
-                        <h2 class=" text-center">Titre présentation</h2>
+                        <h2 class=" text-center font-titre">Titre présentation</h2>
                         <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sit,
                             ab non enim provident</p>
                         <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sit,
@@ -128,12 +129,12 @@
         <!----------------------------------Présentation------------------------->
 
         <div id="presentation" class="row ">
-            <div class="row row-cols-1" style="height: 406px;">
+            <div id="sec-presentation" class="row row-cols-1" style="height: 406px;">
 
-                <section data-aos="fade-right" data-aos-duration="1000"
+                <section id="qui" data-aos="fade-right" data-aos-duration="1000"
                     class="col-5 offset-1 d-flex justify-content-center align-items-center text-white">
-                    <div>
-                        <h2>Qui est-ce ?</h2>
+                    <div class="presentation-texte">
+                        <h2 class="font-titre">Qui est-ce ?</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim adipisci voluptatibus suscipit
                             laborum alias est mollitia itaque animi reprehenderit omnis impedit, soluta sint fugiat,
@@ -145,17 +146,16 @@
                     </div>
                 </section>
                 <div data-aos="flip-up" data-aos-duration="1700" data-aos-easing="ease-out-cubic"
-                    class="col-3 offset-1 d-flex justify-content-center align-items-center">
-                    <!-- <img id="qui" src="media/qui.jpg" alt="photo de la personne"></div> -->
+                    class="col-3 offset-1 d-flex justify-content-center align-items-center nowidth">
                 </div>
             </div>
         </div>
 
         <!--------------------------------listeetcommentaire------------------------------------------->
-        <div id="listeetcommentaire" class="row">
+        <div id="listeetcommentaire" class="row commentaire">
 
 
-            <div class="col pt-5 pl-5">
+            <div id="service" class="col pt-5 pl-5">
                 <h3 class="pl-4"> Titre</h3>
                 <ul>
                     <li>Lorem ipsum .</li>
@@ -169,7 +169,7 @@
 
             <!--------------------------carousel---------------------------------->
 
-            <div class="col-8 ml-5">
+            <div id="caroussel" class="col-8 ml-5 nomp">
                 <h3 class="pt-5">Caroussel Commentaire</h3>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -224,13 +224,13 @@
                         frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-4  align-self-center d-flex justify-content-start">
+            <div class="col-4  align-self-center d-flex justify-content-start maxw">
 
                 <div class=" d-flex flex-column justify-content-center align-items-center">
-                    <h3>Coordonnées</h3>
-                    <div>Adresse : 123 rue du chemin</div>
-                    <div>Téléphone : 01-02-03-04-05</div>
-                    <div>Mail : bonjour@aurevoir.re</div>
+                    <h3 class="font-titre">Coordonnées</h3>
+                    <div class="font">Adresse : 123 rue du chemin</div>
+                    <div class="font">Téléphone : 01-02-03-04-05</div>
+                    <div class="font">Mail : bonjour@aurevoir.re</div>
                     <div class="container-icon mt-3 ml-2">
                         <div class="headline">
                         </div>
