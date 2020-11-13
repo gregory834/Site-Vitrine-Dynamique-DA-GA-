@@ -1,5 +1,6 @@
 #jumbotron{
     width: 600px;    
+    background-color: transparent;
 }
 #logo{
     height: 70px;
@@ -183,6 +184,7 @@ a:active {
        height: 200px;
  
    }
+  
    #cards{
        width: 707px;
        
@@ -190,7 +192,6 @@ a:active {
    .card{
        height: 150px;
    }
-  
   .card-text{
       height: 90%;
   }
@@ -207,7 +208,7 @@ a:active {
    ul{
        padding-top:50px;
    }
-
+   
  
 
   /**************************************/
