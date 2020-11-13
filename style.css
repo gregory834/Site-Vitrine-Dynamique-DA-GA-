@@ -184,18 +184,13 @@ a:active {
        height: 200px;
  
    }
-   #jumbotron{
-       
-   }
+  
    #cards{
        width: 707px;
        
    }
    .card{
        height: 150px;
-   }
-  
-   #qui{
    }
   .card-text{
       height: 90%;
@@ -213,7 +208,7 @@ a:active {
    ul{
        padding-top:50px;
    }
-
+   
  
 
   /**************************************/
