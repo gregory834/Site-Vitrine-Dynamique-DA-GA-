@@ -21,6 +21,10 @@
     background-attachment: fixed;
     background-position: 5%;
 }
+footer{
+    height: 90px;
+}
+
 
 /*---------- Caroussel --------*/
 .carousel{
@@ -202,14 +206,31 @@ a:active {
    #sectioninfo{
        height: 245px;
    }
-   #footer{
+   footer{
        height: 92px;
    }
-   ul{
-       padding-top:50px;
+  .footer{
+      height: 90px;
+  }
+   #telephone{
+       padding-left: 20px;
    }
+
+  .nav-link{
+      font-size: medium;
+
+  }
+  #telephone{
+      font-size: 80%;
+  }
+  .footer{
+      height: 92px;
+  }
+   /* ul{
+       padding-top:50px;
+   } */
    
- 
+  
 
   /**************************************/
  /* #ul{
@@ -383,5 +404,12 @@ a:active {
  /*-----------*/
 
 
+
+  @media all and(max-width: 800px){
+    #navbarSupportedContent{
+        font-size: medium;
+    }
+   
+  }
 
  
